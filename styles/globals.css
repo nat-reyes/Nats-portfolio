@@ -1,0 +1,262 @@
+@font-face {
+    font-family: 'Avenir Next Pro Bold';
+    src: url('/assets/fonts/avenir-next/bold/avenir-next-pro-bold.eot');
+    src: url('/assets/fonts/avenir-next/bold/avenir-next-pro-bold.eot?#iefix')
+    format('embedded-opentype'),
+    url('/assets/fonts/avenir-next/bold/avenir-next-pro-bold.woff2')
+    format('woff2'),
+    url('/assets/fonts/avenir-next/bold/avenir-next-pro-bold.woff')
+    format('woff'),
+    url('/assets/fonts/avenir-next/bold/avenir-next-pro-bold.ttf')
+    format('truetype'),
+    url('/assets/fonts/avenir-next/bold/avenir-next-pro-bold.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next Pro Demi';
+    src: url('/assets/fonts/avenir-next/demi/avenir-next-pro-demi.eot');
+    src: url('/assets/fonts/avenir-next/demi/avenir-next-pro-demi.eot?#iefix')
+    format('embedded-opentype'),
+    url('/assets/fonts/avenir-next/demi/avenir-next-pro-demi.woff2')
+    format('woff2'),
+    url('/assets/fonts/avenir-next/demi/avenir-next-pro-demi.woff')
+    format('woff'),
+    url('/assets/fonts/avenir-next/demi/avenir-next-pro-demi.ttf')
+    format('truetype'),
+    url('/assets/fonts/avenir-next/demi/avenir-next-pro-demi.svg') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next Pro Demi Italic';
+    src: url('/assets/fonts/avenir-next/demi-italic/avenir-next-pro-demi-italic.eot');
+    src: url('/assets/fonts/avenir-next/demi-italic/avenir-next-pro-demi-italic.eot?#iefix')
+    format('embedded-opentype'),
+    url('/assets/fonts/avenir-next/demi-italic/avenir-next-pro-demi-italic.woff2')
+    format('woff2'),
+    url('/assets/fonts/avenir-next/demi-italic/avenir-next-pro-demi-italic.woff')
+    format('woff'),
+    url('/assets/fonts/avenir-next/demi-italic/avenir-next-pro-demi-italic.ttf')
+    format('truetype'),
+    url('/assets/fonts/avenir-next/demi-italic/avenir-next-pro-demi-italic.svg#avenir-next-pro-demi-italic')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next Pro Light';
+    src: url('/assets/fonts/avenir-next/light/avenir-next-pro-light.eot');
+    src: url('/assets/fonts/avenir-next/light/avenir-next-pro-light.eot?#iefix')
+    format('embedded-opentype'),
+    url('/assets/fonts/avenir-next/light/avenir-next-pro-light.woff2')
+    format('woff2'),
+    url('/assets/fonts/avenir-next/light/avenir-next-pro-light.woff')
+    format('woff'),
+    url('/assets/fonts/avenir-next/light/avenir-next-pro-light.ttf')
+    format('truetype'),
+    url('/assets/fonts/avenir-next/light/avenir-next-pro-light.svg#avenir-next-pro-light')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next Pro Light Italic';
+    src: url('/assets/fonts/avenir-next/light-italic/avenir-next-pro-light-italic.eot');
+    src: url('/assets/fonts/avenir-next/light-italic/avenir-next-pro-light-italic.eot?#iefix')
+    format('embedded-opentype'),
+    url('/assets/fonts/avenir-next/light-italic/avenir-next-pro-light-italic.woff2')
+    format('woff2'),
+    url('/assets/fonts/avenir-next/light-italic/avenir-next-pro-light-italic.woff')
+    format('woff'),
+    url('/assets/fonts/avenir-next/light-italic/avenir-next-pro-light-italic.ttf')
+    format('truetype'),
+    url('/assets/fonts/avenir-next/light-italic/avenir-next-pro-light-italic.svg')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next Pro Medium Italic';
+    src: url('/assets/fonts/avenir-next/medium-italic/avenir-next-pro-medium-italic.eot');
+    src: url('/assets/fonts/avenir-next/medium-italic/avenir-next-pro-medium-italic.eot?#iefix')
+    format('embedded-opentype'),
+    url('/assets/fonts/avenir-next/medium-italic/avenir-next-pro-medium-italic.woff2')
+    format('woff2'),
+    url('/assets/fonts/avenir-next/medium-italic/avenir-next-pro-medium-italic.woff')
+    format('woff'),
+    url('/assets/fonts/avenir-next/medium-italic/avenir-next-pro-medium-italic.ttf')
+    format('truetype'),
+    url('/assets/fonts/avenir-next/medium-italic/avenir-next-pro-medium-italic.svg#avenir-next-pro-medium-italic')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next Pro Regular';
+    src: url('/assets/fonts/avenir-next/regular/avenir-next-pro-regular.eot');
+    src: url('/assets/fonts/avenir-next/regular/avenir-next-pro-regular.eot?#iefix')
+    format('embedded-opentype'),
+    url('/assets/fonts/avenir-next/regular/avenir-next-pro-regular.woff2')
+    format('woff2'),
+    url('/assets/fonts/avenir-next/regular/avenir-next-pro-regular.woff')
+    format('woff'),
+    url('/assets/fonts/avenir-next/regular/avenir-next-pro-regular.ttf')
+    format('truetype'),
+    url('/assets/fonts/avenir-next/regular/avenir-next-pro-regular.svg#avenir-next-pro-regular')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Avenir Next Pro Regular Italic';
+    src: url('/assets/fonts/avenir-next/regular-italic/avenir-next-pro-regular-italic.eot');
+    src: url('/assets/fonts/avenir-next/regular-italic/avenir-next-pro-regular-italic.eot?#iefix')
+    format('embedded-opentype'),
+    url('/assets/fonts/avenir-next/regular-italic/avenir-next-pro-regular-italic.woff2')
+    format('woff2'),
+    url('/assets/fonts/avenir-next/regular-italic/avenir-next-pro-regular-italic.woff')
+    format('woff'),
+    url('/assets/fonts/avenir-next/regular-italic/avenir-next-pro-regular-italic.ttf')
+    format('truetype'),
+    url('/assets/fonts/avenir-next/regular-italic/avenir-next-pro-regular-italic.svg#avenir-next-pro-regular-italic')
+    format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'New Guthen Bloots';
+    src: url('/assets/fonts/New-Guthen-Bloots/WOFF/WOFF2/New\ Guthen\ Bloots.woff2')
+    format('woff2'),
+    url('/assets/fonts/New-Guthen-Bloots/WOFF/WOFF1/New\ Guthen\ Bloots.woff')
+    format('woff'),
+    url('/assets/fonts/New-Guthen-Bloots/TTF/New\ Guthen\ Bloots.ttf')
+    format('truetype'),
+    url('/assets/fonts/New-Guthen-Bloots/OTF/New\ Guthen\ Bloots.otf')
+    format('opentype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter/static/Inter-Medium.ttf') format('truetype');
+    font-weight: 400;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter/static/Inter-Regular.ttf') format('truetype');
+    font-weight: 500;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter/static/Inter-SemiBold.ttf') format('truetype');
+    font-weight: 600;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter/static/Inter-Bold.ttf') format('truetype');
+    font-weight: 700;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Inter';
+    src: url('/assets/fonts/Inter/static/Inter-ExtraBold.ttf') format('truetype');
+    font-weight: 800;
+    font-display: swap;
+}
+
+
+html,
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Inter', -apple-system, BlinkMacSystemFont,
+    Segoe UI, Roboto, Oxygen, Ubuntu, Cantarell, Fira Sans, Droid Sans,
+    Helvetica Neue, sans-serif;
+    overflow-x: hidden;
+    color: #211D1E;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 28px;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+/* clears the ‘X’ from Internet Explorer */
+input[type='search']::-ms-clear {
+    display: none;
+    width: 0;
+    height: 0;
+}
+input[type='search']::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+}
+/* clears the ‘X’ from Chrome */
+input[type='search']::-webkit-search-decoration,
+input[type='search']::-webkit-search-cancel-button,
+input[type='search']::-webkit-search-results-button,
+input[type='search']::-webkit-search-results-decoration {
+    display: none;
+}
+
+.cookie-container {
+    padding: 1rem;
+    transition: 0.4s;
+    background-color: black !important;
+    animation: slideIn;
+    animation-duration: 1s;
+}
+
+.cookie-accept-button {
+    background-color: #07a0e4 !important;
+    color: white !important;
+    padding: 0.8rem 3rem !important;
+    border-radius: 45px !important;
+    font-size: 1.1rem !important;
+    font-family: 'Avenir Next Pro Bold';
+    border: 2px solid transparent !important;
+    transition: 0.3s;
+}
+
+@media (max-width: 330px) {
+    .cookie-container > div:first-child {
+        flex: 1 0 100% !important;
+    }
+}
