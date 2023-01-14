@@ -1,5 +1,32 @@
+import navbarStyles from '../../styles/Navbar.module.scss';
+import linkedInLogo from '../../public/assets/img/contact-icons/linkedin.svg';
+import githubLogo from '../../public/assets/img/contact-icons/github.svg';
+import Image from 'next/image';
+
 function Navbar() {
-  return <div>Navbar</div>;
+  return (
+    <nav className={navbarStyles.nav}>
+      <ul className={navbarStyles.nav__itemLeft}>
+        <li>Experience</li>
+        <li>Projects</li>
+        <li>About me</li>
+      </ul>
+      <ul className={navbarStyles.nav__itemRight}>
+        <li>
+          {' '}
+          <a href="https://github.com/Jobsity" target="_blank" rel="noreferrer">
+            <Image src={githubLogo} alt="Github" />
+          </a>
+        </li>
+        <li>
+          {' '}
+          <a href="https://www.linkedin.com/company/jobsity-llc/" target="_blank" rel="noreferrer">
+            <Image src={linkedInLogo} alt="LinkedIn" />
+          </a>
+        </li>
+      </ul>
+    </nav>
+  );
 }
 
 export default Navbar;

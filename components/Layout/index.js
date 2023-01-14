@@ -1,7 +1,7 @@
-// import CookieConsent from 'react-cookie-consent';
 import dynamic from 'next/dynamic';
 import Navbar from '../Navbar';
 import Footer from '../Footer';
+import layoutStyle from '../../styles/Layout.module.scss';
 
 const GoogleAnalyticsConfig = dynamic(() =>
   import('../../utils/ga.js').then((mod) => mod.GoogleAnalyticsConfig)
@@ -9,7 +9,7 @@ const GoogleAnalyticsConfig = dynamic(() =>
 
 function Layout({ children }) {
   return (
-    <div>
+    <div className={layoutStyle.background}>
       <GoogleAnalyticsConfig />
       <Navbar />
       {children}

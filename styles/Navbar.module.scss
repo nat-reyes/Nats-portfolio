@@ -1,0 +1,24 @@
+@import "mixins";
+
+.nav {
+ @include flex-container('horizontal');
+ height: 5rem;
+ background: #090E16;
+ color: white;
+ gap: 55rem;
+}
+
+.nav__itemRight {
+ @include flex-container('horizontal');
+ justify-content: flex-start;
+ gap: 2rem;
+ list-style-type: none;
+}
+
+.nav__itemLeft {
+ @include flex-container('horizontal');
+ justify-content: flex-end;
+ gap: 2rem;
+ list-style-type: none;
+ margin-top: 2rem;
+}

@@ -1,0 +1,14 @@
+.about {
+  color: #ffffff;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  padding: 5rem;
+}
+
+.about__stack {
+  padding: 5rem;
+}
+
+.about__description {
+ font-size: 14px;
+}

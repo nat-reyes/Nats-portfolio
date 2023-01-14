@@ -1,0 +1,12 @@
+@import "mixins";
+
+.header {
+ color: #ffffff;
+ display: grid;
+ grid-template-columns: repeat(3, 35rem);
+ padding: 5rem;
+}
+
+.home__headInformation {
+ @include flex-container('vertical');
+}

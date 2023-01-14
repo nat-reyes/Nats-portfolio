@@ -1,0 +1,29 @@
+@mixin ellipsis() {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+@mixin card($defaultMargin: false){
+  background-color: #fff;
+  box-shadow: 0px 0px 5px 0px rgb(197, 197, 197);
+  border-radius: 4px;
+  @if $defaultMargin {
+    margin: 16px;
+    padding: 24px;
+  }
+}
+
+@mixin flex-container($direction: 'horizontal') {
+  display: flex;
+  @if $direction == 'horizontal' {
+    flex-direction: row;
+  } @else {
+    flex-direction: column;
+  }
+}
+
+@mixin flex($flex: 1) {
+  display: flex;
+  flex: $flex;
+}
