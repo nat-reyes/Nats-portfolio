@@ -1,5 +1,5 @@
 # Nats-portafolio
-Nat's  portafolio website
+Nat's  portafolio website using Next js - vercel
 
 
 Tech Stack
