@@ -1,0 +1,13 @@
+@import "variables";
+
+.button {
+  background-color: transparent;
+  color: #ccd7e6;
+  border: 1px solid #8b3dff;
+  border-radius: 5px;
+  width: 8rem;
+  height: 2rem;
+  cursor: pointer;
+  font-family: $inter;
+  font-size: 12px;
+}
