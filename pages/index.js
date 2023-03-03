@@ -1,8 +1,8 @@
 import SEO from '../components/SEO';
-import Homepage from './Homepage';
-import AboutMe from './About';
-import Experience from './Experience';
-import Projects from './Projects';
+import Homepage from './homepage';
+import AboutMe from './about';
+import Experience from './experience/[slug]';
+import Projects from './projects';
 
 export default function Home() {
   return (

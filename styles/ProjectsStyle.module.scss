@@ -1,0 +1,15 @@
+@import "mixins";
+
+
+.technologiesContainer {
+  @include flex-container('vertical');
+  padding: 5rem;
+  margin-top: -6rem;
+}
+
+.technologiesContainer__cards {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 2rem;
+  margin-top: 4rem;
+}

@@ -5,7 +5,7 @@
   height: 5rem;
   background: #090E16;
   color: white;
-  gap: 55rem;
+  gap: 65rem;
 }
 
 .nav__itemRight {
@@ -21,6 +21,7 @@
   gap: 2rem;
   list-style-type: none;
   margin-top: 2rem;
+  cursor: pointer;
   @media (max-width: 768px) {
     gap: 3rem;
   }

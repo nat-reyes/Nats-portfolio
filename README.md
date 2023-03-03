@@ -4,6 +4,5 @@ Nat's  portafolio website using Next js - vercel
 
 Tech Stack
 
-- Next JS
-- Tailwind CSS
+- Next JS, Javascript, SASS
 - Vercel

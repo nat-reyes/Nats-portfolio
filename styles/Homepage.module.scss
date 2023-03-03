@@ -4,21 +4,30 @@
 .header {
  color: #ffffff;
  display: grid;
- grid-template-columns: repeat(3, 1fr);
+ grid-template-columns: 2fr 1fr;
  padding: 5rem;
 }
 
 .home__headInformation {
- font-family: $MeriendaOne;
- margin-top: 3rem;
+ font-family: $LibreCaslonBold;
  font-size: $font-size-extra-large;
+  margin-left: 4rem;
  @include flex-container('vertical');
 }
 
+.home__headInformationName {
+  margin-left: 3.5rem;
+}
+
+.home__headInformationGreet {
+  font-size: 80px;
+}
+
 .home__headInformationJobTitle {
-  font-size: $font-size-regular;
+  font-size: 20px;
   margin-top: 10px;
   font-family: $interFont;
+  margin-left: 3.5rem;
 }
 
 .header__pic {
@@ -30,8 +39,16 @@
 }
 
 .header__resume {
-  margin-top: 6rem;
-  margin-left: 6rem;
+  margin-top: 4rem;
   @include flex-container('vertical');
   gap: 0.5rem;
+  width: 10rem;
+}
+
+.iconStyle {
+  color: #8b3dff;
+  width: 20px;
+  top: 1px;
+  left: 4px;
+  position: relative;
 }

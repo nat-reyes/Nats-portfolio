@@ -1,18 +1,14 @@
 @import "mixins";
-
+@import "variables";
 .experience {
-  color: #ffffff;
-  padding: 5rem;
+ margin-top: -50rem;
 }
 .experience__title {
-  padding: 4rem;
+  padding: 2rem;
+  font-family: $avenirRegularFont;
+  font-size: 80px;
 }
 .experience__cards {
   @include flex-container('horizontal');
   gap: 3rem;
-}
-
-.experience__card_content {
-  @include flex-container('vertical');
-  font-size: 1rem;
 }

@@ -1,3 +1,5 @@
+@import "variables";
+@import "mixins";
 .about {
   color: #ffffff;
   display: grid;
@@ -6,9 +8,18 @@
 }
 
 .about__stack {
-  padding: 5rem;
+  @include flex-container('vertical');
+  justify-content: center;
+  width: 250px;
+  height: 250px;
+  margin-left: 100px;
 }
 
 .about__description {
  font-size: 14px;
+ font-family: $avenirRegularFont;
+}
+
+.tagColor {
+  color: $bg-color-primary;
 }

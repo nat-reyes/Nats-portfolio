@@ -250,7 +250,7 @@ input[type='search']::-webkit-search-results-decoration {
     padding: 0.8rem 3rem !important;
     border-radius: 45px !important;
     font-size: 1.1rem !important;
-    font-family: 'Avenir Next Pro Bold';
+    font-family: 'Avenir Next Pro Regular';
     border: 2px solid transparent !important;
     transition: 0.3s;
 }
