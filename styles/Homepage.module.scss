@@ -8,6 +8,11 @@
  padding: 5rem;
 }
 
+.home__wip{
+  @include flex-container('horizontal');
+  justify-content: center;
+}
+
 .home__headInformation {
  font-family: $LibreCaslonBold;
  font-size: $font-size-extra-large;
