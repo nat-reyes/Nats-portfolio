@@ -1,8 +1,3 @@
-const fs = require('fs');
-const path = require('path');
-
-const prettierOptions = JSON.parse(fs.readFileSync(path.resolve(__dirname, '.prettierrc'), 'utf8'));
-
 module.exports = {
   env: {
     browser: true,
@@ -10,7 +5,7 @@ module.exports = {
     jest: true,
     node: true,
   },
-  extends: ['next/core-web-vitals', 'eslint:recommended', 'prettier'],
+  extends: ['next/core-web-vitals', 'eslint:recommended'],
   parserOptions: {
     ecmaFeatures: {
       jsx: true,
@@ -18,9 +13,8 @@ module.exports = {
     ecmaVersion: 13,
     sourceType: 'module',
   },
-  plugins: ['react', 'prettier'],
+  plugins: ['react'],
   rules: {
-    'prettier/prettier': ['error', prettierOptions],
     'react/react-in-jsx-scope': 'off',
     'import/no-anonymous-default-export': 'off',
     'react/no-unknown-property': 'off',

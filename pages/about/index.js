@@ -11,7 +11,7 @@ function AboutMe() {
   return (
     <div className={aboutStyles.about}>
       <div className={aboutStyles.about__stack}>
-        <Image src={headerPic} width={250} height={300} />
+        <Image src={headerPic} width={250} height={300} alt="Profile-avatar"/>
       </div>
       <div className={aboutStyles.about__description}>
         <p>

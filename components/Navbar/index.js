@@ -2,7 +2,6 @@ import navbarStyles from '../../styles/Navbar.module.scss';
 import linkedInLogo from '../../public/assets/img/contact-icons/linkedin.svg';
 import githubLogo from '../../public/assets/img/contact-icons/github.svg';
 import Image from 'next/image';
-import Link from 'next/link';
 
 function Navbar() {
   return (

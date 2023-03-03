@@ -8,6 +8,7 @@
     "eslint": "eslint . --fix"
   },
   "dependencies": {
+    "eslint-config-next": "^13.2.3",
     "next": "latest",
     "next-images": "^1.8.4",
     "prettier": "^2.7.1",
@@ -16,7 +17,10 @@
     "react-icons": "^4.7.1"
   },
   "devDependencies": {
+    "eslint": "^8.35.0",
+    "eslint-plugin-prettier": "^4.0.0",
     "prettier": "^2.4.1",
+    "prettier-eslint": "^13.0.0",
     "sass": "^1.55.0"
   }
 }

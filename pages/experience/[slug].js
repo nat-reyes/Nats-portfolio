@@ -1,4 +1,4 @@
-import experienceStyles from '../../styles/ExperiencePage.module.scss';
+import experienceStyles from '../../styles/Experiencepage.module.scss';
 import Card from '../../components/Cards';
 
 const experienceData = [

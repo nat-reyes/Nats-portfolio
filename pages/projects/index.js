@@ -12,28 +12,28 @@ import android from '../../public/assets/img/technologies/android.png';
 import java from '../../public/assets/img/technologies/java.png';
 
 import Image from 'next/image';
-const projects = [
-  {
-    name: 'Jtalent',
-    description: 'Jtalent is a huge application created to support all the workflow of the company. It is the core of the company since employees needs to go to Jtalent to support their day to day tasks.',
-    stack: 'React Js - Redux - Jest - Cypress - SASS - Netlify'
-  },
-  {
-    name: 'Jobsity App',
-    description: 'Jobsity ',
-    stack: 'React Js - Redux'
-  },
-  {
-    name: 'Word Pos Solutions',
-    description: 'Ipsum Lorem Ipsum Lorem'
-  },
-  {
-    name: 'Freelance',
-    date_from: 'Jun 2019',
-    date_to: 'Jan 2020',
-    experience_resume: 'Ipsum Lorem Ipsum Lorem'
-  }
-];
+// const projects = [
+//   {
+//     name: 'Jtalent',
+//     description: 'Jtalent is a huge application created to support all the workflow of the company. It is the core of the company since employees needs to go to Jtalent to support their day to day tasks.',
+//     stack: 'React Js - Redux - Jest - Cypress - SASS - Netlify'
+//   },
+//   {
+//     name: 'Jobsity App',
+//     description: 'Jobsity ',
+//     stack: 'React Js - Redux'
+//   },
+//   {
+//     name: 'Word Pos Solutions',
+//     description: 'Ipsum Lorem Ipsum Lorem'
+//   },
+//   {
+//     name: 'Freelance',
+//     date_from: 'Jun 2019',
+//     date_to: 'Jan 2020',
+//     experience_resume: 'Ipsum Lorem Ipsum Lorem'
+//   }
+// ];
 
 function Projects() {
   return (

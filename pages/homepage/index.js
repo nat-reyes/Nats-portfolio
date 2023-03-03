@@ -1,7 +1,6 @@
 import homeStyles from '../../styles/Homepage.module.scss';
 import '../../styles/Homepage.module.scss';
 import { FaArrowDown, FaLocationArrow } from 'react-icons/fa';
-import Button from '../../components/Button';
 import btnStyle from '../../styles/Button.module.scss';
 
 function Homepage() {
@@ -19,8 +18,8 @@ function Homepage() {
         <a className={btnStyle.link} href={hvUrl} target='_blank' rel='noopener noreferrer'> Resume <FaArrowDown
           id='icon' style={{ color: '#8b3dff', width: '20px', top: '1px', left: '4px', position: 'relative' }} /> </a>
         <a className={btnStyle.link} href='mailto:aylin.reyes.8@gmail.com?subject = Hey Nat!' target='_blank'
-           rel='noopener noreferrer'> Contact me! <FaLocationArrow
-          className={homeStyles.iconStyle} /></a>
+          rel='noopener noreferrer'> Contact me! <FaLocationArrow
+            className={homeStyles.iconStyle} /></a>
       </div>
     </div>
   );
